@@ -1,7 +1,6 @@
 import os
-#os.environ["CUDA_VISIBLE_DEVICES"] = "4"
 os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID"  #（保证程序cuda序号与实际cuda序号对应）
-os.environ['CUDA_VISIBLE_DEVICES'] = "0,1,2,3"  #（代表仅使用第0，1号GPU）
+os.environ['CUDA_VISIBLE_DEVICES'] = "0"  #（代表仅使用第0，1号GPU）
 import argparse
 import warnings
 warnings.filterwarnings("ignore")
@@ -28,8 +27,7 @@ import losses
 from dataset import Dataset
 from metrics import iou_score
 from utils import AverageMeter, str2bool
-from archs import resmlp_12
-#from archs import UnetPlusPlus
+from archs import UMLP
 
 ARCH_NAMES = archs.__all__
 LOSS_NAMES = losses.__all__
@@ -48,7 +46,7 @@ def parse_args():
                         metavar='N', help='mini-batch size (default: 16)')
     
     # model
-    parser.add_argument('--arch', '-a', metavar='ARCH', default='resmlp_12')
+    parser.add_argument('--arch', '-a', metavar='ARCH', default='UMLP')
     parser.add_argument('--deep_supervision', default=False, type=str2bool)
     parser.add_argument('--input_channels', default=3, type=int,
                         help='input channels')
