@@ -65,10 +65,6 @@ python train.py --dataset <dataset name> --arch UMLP
 python val.py --name <exp name>
 ```
 
-### Acknowledgements:
-
-This code-base uses certain code-blocks and helper functions from [UNext]([jeya-maria-jose/UNeXt-pytorch：“UNeXt：基于 MLP 的快速医学图像分割网络”的官方 Pytorch 代码库，MICCAI 2022 (github.com)](https://github.com/jeya-maria-jose/UNeXt-pytorch)),  and Multi-class segmentation mainly refers to ([WZMIAOMIAO/deep-learning-for-image-processing: deep learning for image processing including classification and object-detection etc. (github.com)](https://github.com/WZMIAOMIAO/deep-learning-for-image-processing)). Thanks for their great works.
-
 ### Citation:
 ```
 @article{Shuo Gao U-MLP,
