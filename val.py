@@ -21,7 +21,7 @@ from metrics import iou_score
 from utils import AverageMeter
 from albumentations import RandomRotate90,Resize
 import time
-from archs import resmlp_12
+from archs import UMLP
 
 
 def parse_args():
