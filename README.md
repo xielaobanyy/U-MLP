@@ -72,6 +72,8 @@ This code-base uses certain code-blocks and helper functions from UNeXt [Link](h
 ```
 @article{Shuo Gao U-MLP,
   title={U-MLP: MLP-based Ultralight Refinement Network for Multimodal Medical Image Segmentation},
-  author={Shuo Gao, Wenhui Yang and Menglei Xu},
+  author={Shuo Gao, Wenhui Yang, Menglei Xu, Hao Zhang, Hong Yu, Airong Qian, Wenjuan Zhang},
+  journal={Computers in Biology and Medicine},
+  DOI={https://doi.org/10.1016/j.compbiomed.2023.107460}
 }
 ```
