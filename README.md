@@ -58,12 +58,15 @@ For binary segmentation problems, just use folder 0.
 
 1. Train the model.
 ```
-python train.py --dataset <dataset name> --arch UMLP
+python train.py --dataset <dataset name> --arch resmlp_12
 ```
 2. Evaluate.
 ```
 python val.py --name <exp name>
 ```
+
+### Acknowledgements：
+This code-base uses certain code-blocks and helper functions from UNeXt [Link](https://github.com/jeya-maria-jose/UNeXt-pytorch).
 
 ### Citation:
 ```
