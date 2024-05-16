@@ -6,6 +6,9 @@ Pytorch Code base for “**U-MLP: MLP-based Ultralight Refinement Network for Mu
 
 The convolutional neural network (CNN) and Transformer play an important role in computer-aided diagnosis and intelligent medicine. However, CNN cannot obtain long-range dependence, and Transformer has the shortcomings in computational complexity and a large number of parameters. Recently, compared with CNN and Transformer, the Multi-Layer Perceptron (MLP)-based medical image processing network can achieve higher accuracy with smaller computational and parametric quantities. Hence, in this work, we propose an encoder-decoder network, U-MLP, based on the ReMLP block. 
 
+![1-s2 (1)](https://github.com/xielaobanyy/U-MLP/assets/92131703/5c109e41-cc13-460d-858f-1df765e4807d)
+
+
 ## Using the code:
 
 The code is stable while using Python 3.8.0, CUDA >=11.1
